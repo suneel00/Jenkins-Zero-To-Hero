@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: ' https://github.com/suneel00/Jenkins-Zero-To-Hero.git'
+                //git branch: 'main', url: 'https://github.com/suneel00/Jenkins-Zero-To-Hero.git'
             }
         }
         stage('Build and Test') {
